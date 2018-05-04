@@ -1,0 +1,50 @@
+body{
+    background-image:url(http://kette.starkethemes.com/wp-content/uploads/2017/09/OGQFEG0_2.jpg);
+}
+.container{
+    
+    padding: 20px;
+}
+
+.foto{
+    background-color: rgba(201, 76, 76, 0.7);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
+    width: 250px;
+    height: 250px;
+    margin-left: 10vh;
+    align-content: center;
+    float: left;
+    border: 0px solid #73AD21;
+}
+
+.datos{
+    background-color: rgba(201, 76, 76, 0.7);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
+    width: 450px;
+    height: 250px;
+    float: left;
+    margin-left: 35px;
+
+}
+
+.bio{
+    clear: both;
+    background-color: rgb(241, 241, 241);
+    width: 80vw;
+    height: 250px;
+    margin-left: 10vh;
+    padding: 10px;
+    margin-top: 280px;
+}
+
+.gustos{
+    clear: both;
+    background-color: rgb(241, 241, 241);
+    width: 80vw;
+    height: 250px;
+    margin-left: 10vh;
+    padding: 10px;
+    margin-top: 25px;
+}

@@ -1,0 +1,51 @@
+nav {
+    background-color: lightseagreen;
+    width: 100%;
+}
+
+
+body {
+    background-image: url(https://i.pinimg.com/736x/41/c6/f6/41c6f66ce11983fe28ef9c9e9c097ae5.jpg);
+    margin: 0px;
+    
+}
+section{
+    display: block;
+    border: dotted;
+    height: 70vh;
+    width:70vh;
+    float:left;
+    margin-left: 10vh;
+    background-color: lightgray;
+     
+}
+.name {
+    display: block;
+    border: dotted;
+    height: 50vh;
+    width:50vh;
+    background-color: indianred;
+    float:right;
+    margin-right: 600px; 
+  
+}
+
+.bio{
+    display: block;
+    border: dotted;
+    clear: both;
+    width: 180vh;
+    height:50vh;
+    position: center;
+    margin-left: 10vh;
+    background-color: pink
+}
+.gustos{
+    display: block;
+    border: dotted;
+    width: 180vh;
+    height:50vh;
+    clear:both;
+    margin-left: 10vh;
+    background-color: plum
+}
