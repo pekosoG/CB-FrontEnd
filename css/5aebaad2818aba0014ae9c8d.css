@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(185, 163, 163);
+}
+.nombre{
+    color: crimson;
+    float: right;
+    text-align-last: center;
+}
+.fotoperf{
+    padding: 15px;
+    border: 9px currentColor rgb(58, 22, 92);
+    float: left;
+}
