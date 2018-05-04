@@ -1,0 +1,67 @@
+.main{
+    background-color: silver;
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+}
+.photo{
+    width: 250px;
+    height: 300px;
+    background-image: url("https://scontent-qro1-1.xx.fbcdn.net/v/t1.0-9/14908311_1250833521605328_3535429336636413976_n.jpg?_nc_cat=0&oh=4b90b3cced4d6aadf17d5222d9ae52b2&oe=5B9D44C5");
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.name{
+    width: 350px;
+    height: 70px;
+    background-color: deepskyblue;
+    float: right;
+    border-radius: 20px;
+    margin-top:30px;
+    margin-right: 30px;
+
+}
+.github{
+    width: 350px;
+    height: 70px;
+    background-image: url("https://pragmaticmates.com/static/images/icons/github.png");
+    float: right;
+    border-radius: 20px;
+    margin-top:50px;
+    margin-right: 30px;
+
+}
+.social{
+    width: 350px;
+    height: 70px;
+    background-color: tan;
+    float: right;
+    border-radius: 20px;
+    margin-top:50px;
+    margin-right: 30px;
+
+}
+.bio{
+    background-color: salmon;
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 700px;
+    height: 250px;
+    border-radius: 20px;
+}
+.music{
+    background-color: deepskyblue;
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 700px;
+    height: 250px;
+    border-radius: 20px;
+}
+h4{
+    text-align: center;
+    margin-top: 3px;
+}
