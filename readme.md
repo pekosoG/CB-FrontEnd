@@ -7,6 +7,7 @@ Esta es una practica de código + github team work para la cinta blanca del batc
 > Divide y Vencerás
 
 ## Pasos a Seguir:
+
 - Forkea el Repositorio a tu propio GitHub
 - Baja el código a tu Equipo/Lap/Computadora
 - Date de alta con la información [Aqui](https://cb-api-gdl.herokuapp.com/explorer/)
