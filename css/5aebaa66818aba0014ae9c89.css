@@ -31,7 +31,9 @@ body{
 
 .bio{
     clear: both;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(201, 76, 76, 0.7);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
     width: 80vw;
     height: 250px;
     margin-left: 10vh;
@@ -41,7 +43,9 @@ body{
 
 .gustos{
     clear: both;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(201, 76, 76, 0.7);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
     width: 80vw;
     height: 250px;
     margin-left: 10vh;
