@@ -1,5 +1,10 @@
 body{
-    background-image:url(http://kette.starkethemes.com/wp-content/uploads/2017/09/OGQFEG0_2.jpg);
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Creative-hd-images-free-download.jpg);
+    background-repeat: repeat;
+    background-size: fill;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
 }
 .container{
     
@@ -7,7 +12,7 @@ body{
 }
 
 .foto{
-    background-color: rgba(201, 76, 76, 0.7);
+    background-color: rgba(201, 76, 76, 0.8);
     border-radius: 5px;
     box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
     width: 250px;
@@ -19,19 +24,21 @@ body{
 }
 
 .datos{
-    background-color: rgba(201, 76, 76, 0.7);
+    background-color: rgba(66, 58, 58, 0.8);
     border-radius: 5px;
     box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
-    width: 450px;
+    width: 350px;
     height: 250px;
     float: left;
     margin-left: 35px;
-
+    padding-left: 10px;
 }
 
 .bio{
     clear: both;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(66, 58, 58, 0.8);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
     width: 80vw;
     height: 250px;
     margin-left: 10vh;
@@ -41,10 +48,24 @@ body{
 
 .gustos{
     clear: both;
-    background-color: rgb(241, 241, 241);
+    background-color: rgba(66, 58, 58, 0.8);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 4px 4px 4px;
     width: 80vw;
     height: 250px;
     margin-left: 10vh;
     padding: 10px;
     margin-top: 25px;
+}
+
+.nombre{
+    display: inline-block;
+}
+
+.git{
+    display: inline-block;
+}
+
+.social{
+    display: inline-block;
 }
