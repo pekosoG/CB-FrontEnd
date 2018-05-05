@@ -9,10 +9,12 @@ $(document).ready(function() {
         url += '5aebaf08818aba0014ae9c90';
 
     $.getJSON(url, function(resp) {
-        $('.name').text(resp, nombre);
-        $('.github').text(resp, github);
-        $('.musica').text(resp, musica);
-        $('.bio').text(resp, bio);
+        $('.nombre').text(resp.nombre);
+        $('.musica').text(resp.musica);
+        $('.bio').text(resp.bio);
+        $('.github').parent().attr('href', 'https://github.com/' + resp.github);
+
+        $('#photo img').attr('src', resp.foto)
 
     });
 });
