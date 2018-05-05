@@ -21,7 +21,9 @@ body{
         width: 19%;
         padding: 5px; 
         font-size: 30px;
-        background-color: aliceblue;
+        background-color: rgb(168, 198, 224);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
 
 .tarjeta {
@@ -31,7 +33,7 @@ body{
     width: 450px;
     height: 180px;
     padding: 20px;
-    box-shadow: rgba(0,0,0,0.3) 2px 2px 2px;
+    box-shadow: rgba(58, 53, 53, 0.3) 2px 2px 2px;
     border-radius: 1px;
     }
 
@@ -51,3 +53,13 @@ body{
     margin-left: 10vh;
     padding: 10px;
     margin-top: 25px; }
+
+.logo github {
+    width: 30px;
+    max-height :30px;
+}
+
+.linkedin {
+    width: 50px;
+    weight50px;
+}
