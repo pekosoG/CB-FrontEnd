@@ -4,14 +4,16 @@ $(document).ready(function(){
   if(search.has("id"))
   url+=search.get("id")
   else
-  url+="5aebaad2818aba0014ae9c8d";
-  $getJSON(url,function(resp){
+  url+="5aebaf08818aba0014ae9c90";
+  $.getJSON(url,function(resp){
       $(".nombre").text(resp.nombre);
-      $(".github").text(resp.github);
+      $(".github p").text(resp.github);
+      $(".github a").attr("href","http://github.com/"+resp.github);
+      $(".facebook h4").attr("href","https://www.facebook.com/"+resp.facebook);
       $(".musica").text(resp.musica);
-      $(".contenedor").attr("src",resp.foto);
+      $(".fotoperf").attr("src",resp.foto);
       $(".Bio").text(resp.bio);
-  })
+  });
 
 });
 
