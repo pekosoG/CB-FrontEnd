@@ -4,7 +4,7 @@ $(document).ready(function(){
   if(search.has("id"))
   url+=search.get("id")
   else
-  url+="5aebaf08818aba0014ae9c90";
+  url+="5aebaad2818aba0014ae9c8d";
   $.getJSON(url,function(resp){
       $(".nombre").text(resp.nombre);
       $(".github p").text(resp.github);
