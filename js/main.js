@@ -6,7 +6,7 @@ $(document).ready(function(){
             $(plantilla).find('img').attr('src',data[i].foto);
             $(plantilla).find('h2').text(data[i].nombre);
             let random=Math.floor(Math.random() * Math.floor(data.length));
-            $(plantilla).attr('href',data[random].id+'.html?id='+data[i].id);
+            $(plantilla).attr('href',data[i].id+'.html?id='+data[i].id);
             $('.contenedor').append(plantilla);
         }
     });
