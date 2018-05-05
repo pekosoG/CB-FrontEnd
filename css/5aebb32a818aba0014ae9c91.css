@@ -21,7 +21,9 @@ body{
         width: 19%;
         padding: 5px; 
         font-size: 30px;
-        background-color: aliceblue;
+        background-color: rgb(168, 198, 224);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
 
 .tarjeta {
@@ -31,16 +33,33 @@ body{
     width: 450px;
     height: 180px;
     padding: 20px;
-    box-shadow: rgba(0,0,0,0.3) 2px 2px 2px;
+    box-shadow: rgba(58, 53, 53, 0.3) 2px 2px 2px;
     border-radius: 1px;
     }
 
 .contenedor {
     background-color: rgb(202, 245, 210);
-    margin: 300px;
-    width: 600px;
-    padding: 160px;
     box-shadow: rgb(0,0 0, 5) 1px 1px 1p;
     text-align: left;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.gustos {
+    clear: both;
+    background-color: rgb(241, 241, 241);
+    width: 80vw;
+    height: 250px;
+    margin-left: 10vh;
+    padding: 10px;
+    margin-top: 25px; }
+
+.github a img{
+    width: 90px;
+    max-height :90px;
+}
+
+.linkedin a img {
+    width: 50px;
+    weight:50px;
+}

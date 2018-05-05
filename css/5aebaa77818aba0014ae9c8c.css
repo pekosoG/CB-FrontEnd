@@ -1,36 +1,87 @@
 body{
-    background-color:azure;
+    background-color:#FFFFFF;
     background-size: cover; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#tarjetaPerfil{
+    background-color: #00BCD4;
+    width: 1000px;
+    height: 400px;
+    margin-left: 230px;
+    margin-top: 100px;
+    display: inline-block;
+    box-shadow: 5px 5px 8px 8px #BDBDBD;
+}
 
-#fotoPerfil{
+.fotoPerfil{
+    margin-top: 75px;
+    margin-left: 60px;
     float: left;
+}
+
+.fotoPerfil img{
+    border-radius: 150px;
     width: 250px;
     height: 250px;
 }
 
-#fotoPerfil img{
-    width: 250px;
-    height: 250px;
+.nombre{
+    width: 180px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
 }
 
 .info{
+    margin-top: 90px;
+    margin-left: 140px;
     float: left;
+    color: white;
 }
 
 .info div{
-    padding: 35px;
+    float: left;
+    margin-right: 10px;
 }
 
-#bio{
+#correo{
+    margin-top: 30px;
+}
+
+#PeliculasLibros{
+    background-color: #00BCD4;
+    width: 1000px;
+    height: 1000px;
+    float: left;
+    margin-left: 230px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 8px 8px #BDBDBD;
+    color: white;
+}
+
+.peliculas{
     width: 100%;
-    height: 250px;
+    height: 400px;
     float: left;
 }
 
-#MusicaPeliculas{
+.musica{
     width: 100%;
-    height: 250px;
+    height: 400px;
     float: left;
+}
+
+#tarjetasPeliculas{
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    border: solid 2px;
 }
