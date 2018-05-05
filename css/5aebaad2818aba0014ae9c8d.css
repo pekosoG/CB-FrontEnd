@@ -3,11 +3,81 @@ body{
 }
 .nombre{
     color: crimson;
-    float: right;
-    text-align-last: center;
+    float: unset;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgb(252, 255, 60);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
 }
 .fotoperf{
     padding: 15px;
-    border: 9px currentColor rgb(58, 22, 92);
+    border: 18px groove rgb(58, 22, 92);
     float: left;
+    margin-top: 20px;
+}
+.github{
+    width: 25px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+  
+    
+}
+.facebook{
+    width: 25px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+
+}
+.Bio{
+    float: right;
+    width: 800px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: ridge rgb(158, 224, 96);
+    border-radius: 9px;
+    color: rgb(172, 11, 11);
+    padding-top: 30px;
+    margin: 40px;
+    background-color: snow;
+}
+.musica{
+    float: right;
+    width: 400px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: ridge rgb(230, 49, 49);
+    border-radius: 9px;
+    color: rgb(45, 216, 2);
+    padding-top: 30px;
+    margin: 40px;
+    background-color: black;
+    margin-right: 120px;
+    
+}
+.PELICULAS{
+    float: right;
+    width: 400px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: ridge rgb(167, 190, 37);
+    border-radius: 9px;
+    color: rgb(216, 2, 2);
+    padding-top: 30px;
+    margin: 40px;
+    background-color: rgb(43, 27, 27);
+    margin-right: 120px;
 }
