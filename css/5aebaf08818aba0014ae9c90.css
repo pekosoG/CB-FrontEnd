@@ -1,0 +1,59 @@
+#grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 2fr));
+    grid-gap: 20px;
+    text-align: center;
+}
+
+#grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90%, 2fr));
+    border: aqua solid 5px;
+}
+
+#grid2>div {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+#bio {
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+#hobbies {
+    width: 91%;
+    height: 43px;
+    margin: auto;
+    background-color: rgb(21, 77, 182);
+    padding: 0px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#elem,
+.perfil {
+    padding: 10px;
+    height: 150px;
+}
+
+#bio>p::first-letter {
+    font-size: 200%;
+    color: rgb(150, 225, 235);
+}
+
+#social {
+    background-color: cornflowerblue;
+}
