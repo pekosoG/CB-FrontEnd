@@ -1,32 +1,37 @@
 nav {
-    background-color: lightseagreen;
+    background-color: rgba(201, 76, 76, 0.5);
     width: 100%;
 }
 
 
 body {
-    background-image: url(https://i.pinimg.com/736x/41/c6/f6/41c6f66ce11983fe28ef9c9e9c097ae5.jpg);
+    background-image: url(http://globalmedicalco.com/photos/globalmedicalco/8/37470.jpg);
     margin: 0px;
+   
+
     
 }
 section{
     display: block;
     border: dotted;
-    height: 70vh;
-    width:70vh;
+    width: 500px;
+    height:500px;
     float:left;
-    margin-left: 10vh;
+    margin-left: 80px;
     background-color: lightgray;
+    margin-bottom: 16px;
+    
+   
      
 }
 .name {
     display: block;
     border: dotted;
-    height: 50vh;
-    width:50vh;
-    background-color: indianred;
+    width: 350px;
+    height:350px;
+    background-color: rgba(201, 76, 76, 0.5);
     float:right;
-    margin-right: 600px; 
+    margin-right: 800px; 
   
 }
 
@@ -34,18 +39,21 @@ section{
     display: block;
     border: dotted;
     clear: both;
-    width: 180vh;
-    height:50vh;
+    width: 1800px;
+    height:500px;
     position: center;
-    margin-left: 10vh;
-    background-color: pink
+    margin-left: 80px;
+    background-color: rgba(201, 76, 76, 0.5);
+    font-size: 50px !important;
+    
 }
 .gustos{
     display: block;
     border: dotted;
-    width: 180vh;
-    height:50vh;
+    width: 1800px;
+    height:500px;
     clear:both;
-    margin-left: 10vh;
-    background-color: plum
+    margin-left: 80px;
+    background-color: rgba(201, 76, 76, 0.5);
+    margin-top: 16px;
 }
