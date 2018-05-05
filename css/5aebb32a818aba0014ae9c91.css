@@ -54,12 +54,12 @@ body{
     padding: 10px;
     margin-top: 25px; }
 
-.logo github {
-    width: 30px;
-    max-height :30px;
+.github a img{
+    width: 90px;
+    max-height :90px;
 }
 
-.linkedin {
+.linkedin a img {
     width: 50px;
-    weight50px;
+    weight:50px;
 }

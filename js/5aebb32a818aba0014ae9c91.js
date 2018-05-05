@@ -7,7 +7,7 @@ $(document).ready(function(){
         url+='5aebb32a818aba0014ae9c91';
     $.getJSON(url, function (resp){
         $('.nombre').text(resp.nombre);
-        $('.github').text(resp.github);
+        $('.github h2').text(resp.github);
         $('.musica').text(resp.musica);
         $('.contenedor img').attr('src', resp.foto);
         $('.bio').text(resp.bio);
