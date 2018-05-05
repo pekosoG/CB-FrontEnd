@@ -29,6 +29,7 @@
     font-size: 30px;
 
 }
+
 .github{
     width: 350px;
     height: 70px;
@@ -38,11 +39,11 @@
     margin-right: 30px;
     font-size: 30px;
 }
-.github img{
-    width: 90px;
+.github i{
+    width: 0px;
     height: 90px;
     float: left;
-    margin-right:-50px;
+    margin-right:50px;
 }
 .social{
     width: 350px;
@@ -52,7 +53,15 @@
     border-radius: 20px;
     margin-top:50px;
     margin-right: 30px;
+    font-size: 30px;
 
+}
+.social i{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 25px;
 }
 .bio{
     background-color: salmon;
@@ -61,14 +70,16 @@
     width: 700px;
     height: 250px;
     border-radius: 20px;
+    font-size: 30px;
 }
 .music{
     background-color: deepskyblue;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 350px;
     width: 700px;
     height: 250px;
     border-radius: 20px;
+    font-size: 30px;
 }
 h4{
     text-align: center;
