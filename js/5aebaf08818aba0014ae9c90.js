@@ -10,8 +10,8 @@ $(document).ready(function() {
 
     $.getJSON(url, function(resp) {
         $('.nombre').text(resp.nombre);
-        $('.musica').text(resp.musica);
-        $('.bio').text(resp.bio);
+        $('.musica p.1').text(resp.musica);
+        $('.bio p').text(resp.bio);
         $('.github').parent().attr('href', 'https://github.com/' + resp.github);
 
         $('#photo img').attr('src', resp.foto)
